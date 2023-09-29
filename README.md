@@ -1,9 +1,9 @@
 # Health-Evolved
 Packaged version of 2 custom WordPress plugins meant for use on membership site.\
 [Link to TDEE Calculator standalone.](https://github.com/sitesbyally/TDEE-Calculator)\
-[Link to Weight Tracker standalone.](https://github.com/sitesbyally/Weight-Tracker)\
+[Link to Weight Tracker standalone.](https://github.com/sitesbyally/Weight-Tracker)
 
-Note: both plugins rely on styling from the Elementor builder. More on that below.\
+Note: both plugins rely on styling from the Elementor builder. More on that below.
 
 ## healthEvolved-plugins
 - This file combines the TDEE Calculator and Weight Tracker for a membership site.
@@ -12,7 +12,7 @@ Note: both plugins rely on styling from the Elementor builder. More on that belo
 - The weight tracker only works for logged in users. Non-users will see an error message when they attempt to add a weight/date/note.
   - Users enter their weight, date, and notes and it will save back to their WordPress user profile.
   - It will retrieve the user’s tracked data wherever it is displayed - keep this in mind as it may be really long/big if a user has been tracking their weight for a long time.
-  - All values are saved/updated each time a new value is saved, so users can update past notes/weights if needed.\
+  - All values are saved/updated each time a new value is saved, so users can update past notes/weights if needed.
 
 *IMPORTANT:* this plugin must be installed on its own. It will cause errors when installed alongside the TDEEcalculator or weight_tracker-plugin files. 
 
